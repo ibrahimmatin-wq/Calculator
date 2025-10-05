@@ -1,6 +1,16 @@
 print("First project of making a calculator"
       "using python programming language")
 # Calculator
+while True:
+    print("Enter 'q' to quit")
+    print("Enter 'c' to continue")
+    user_input=input("Enter your choice:")
+    if user_input=='q':
+        print("Exiting the calculator")
+        break
+    elif user_input=='c':
+        print("Continuing the calculator")
+        break
 a=int(input("Enter first number:")) # 17
 b=int(input("Enter second number:")) # 4            
 print("Enter 1 for addition")
@@ -23,3 +33,4 @@ else:
     print("Invalid operation")
 
             
+
